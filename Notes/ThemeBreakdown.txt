@@ -1,0 +1,27 @@
+-Registers:
+--Colour: # (Dark-ish Pink)
+rax,rbx...
+
+-Commands:
+--Colour: # (Dark-ish Blue)
+push,pull,call...
+
+-Functions:
+--Colour: # (Dark-ish Red)
+^([a-zA-Z_][a-zA-Z0-9_]*)(?=\\s*:\\s*)
+
+-Constants:
+--Colour: # (Light-ish Orange)
+\d+,0x[a-fA-F0-9]+
+
+-Sections / Global / Extern:
+--Colour: # (Light-ish Cyan/Blue)
+section .text,.bss
+
+-Quotes
+--Colour: #84be69 (Light-ish Green)
+begin end ', "
+
+-Comments:
+--Colour: #6A9955 (Dark-ish Green)
+;.*$

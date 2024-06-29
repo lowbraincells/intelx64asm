@@ -1,0 +1,77 @@
+{
+    "name": "asmTheme",
+    "type": "dark",  // or "light"
+    "colors": {
+      "editor.background": "#1E1E1E",
+      "editor.foreground": "#D4D4D4"
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword.control.asm",
+        "settings": {
+          "foreground": "#C586C0"
+        }
+      },
+      {
+        "scope": "keyword.operator.asm",
+        "settings": {
+          "foreground": "#a83535"
+        }
+      },
+      {
+        "scope": "keyword.declaration.asm",
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "scope": "constant.language.asm",
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "scope": "constant.numeric.asm",
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "scope": "string.quoted.double.asm",
+        "settings": {
+          "foreground": "#84be69"
+        }
+      },
+      {
+        "scope": "string.quoted.single.asm",
+        "settings": {
+          "foreground": "#84be69"
+        }
+      },
+      {
+        "scope": "comment.line.semicolon.asm",
+        "settings": {
+          "foreground": "#6A9955"
+        }
+      },
+      {
+        "scope": "variable.asm",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      },
+      {
+        "scope": "entity.name.function.asm",
+        "settings": {
+          "foreground": "#bbbb35"
+        }
+      },
+      {
+        "scope": "storage.type.asm",
+        "settings": {
+          "foreground": "#4EC9B0"
+        }
+      }
+    ]
+  }
+  

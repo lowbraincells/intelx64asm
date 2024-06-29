@@ -1,0 +1,38 @@
+{
+    "scopeName": "source.asm",
+    "patterns": [
+      {
+        "match": "\\b(mov|push|pull)\\b",
+        "name": "keyword.control.asm"
+      },
+      {
+        "match": "\\b(equ|db)\\b",
+        "name": "keyword.declaration.asm"
+      },
+      {
+        "match": "\\b(byte)\\b",
+        "name": "keyword.operator.asm"
+      },
+      {
+        "begin": "\"",
+        "end": "\"",
+        "name": "string.quoted.double.asm"
+      },
+      {
+        "begin": "'",
+        "end": "'",
+        "name": "string.quoted.single.asm"
+      },
+      {
+        "match": "^([a-zA-Z_][a-zA-Z0-9_]*)(?=\\s*:\\s*)",
+        "name": "entity.name.function.asm"
+      },
+      {
+        "match": ";.*$",
+        "name": "comment.line.semicolon.asm"
+      }
+    ],
+    "repository": {},
+    "fileTypes": ["asm"]
+  }
+  
