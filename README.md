@@ -4,15 +4,15 @@ intel x64 asm is VSCode extension drifted from [Github AsmTesting](https://githu
 
 ## Features
 
-[ ] Theme
+- [ ] Theme
 
-- [ ] Code colouring
+    - [ ] Code colouring
 
-[ ] Beautifier (Using Nasa/Google/Etc Coding Style)
+- [ ] Beautifier (Using Nasa/Google/Etc Coding Style)
 
-[ ] Catch errors
+- [ ] Catch errors
 
-[ ] Catch available optimization
+- [ ] Catch available optimization
 
 <!-- ## Extension Settings
 
